@@ -20,6 +20,14 @@ public class Arithmetic {
      */
     public static String arithmetic(int a, int b, int c) {
         String result = "ERROR";
+        
+        if (c == a * b) {
+            result = "YES";
+        }
+        else {
+            result = "NO";
+        }
+        
         return result;
     }
 }

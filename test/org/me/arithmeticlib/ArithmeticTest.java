@@ -72,7 +72,7 @@ public class ArithmeticTest {
         System.out.println("arithmetic: all is negative (YES)");
         int a = -5;
         int b = -6;
-        int c = -30;
+        int c = 30;
         String expResult = "YES";
         String result = Arithmetic.arithmetic(a, b, c);
         assertEquals(expResult, result);
