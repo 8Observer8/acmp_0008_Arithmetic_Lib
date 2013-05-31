@@ -19,7 +19,7 @@ public class Arithmetic {
      * @return YES - if c is a product of a and b; NO - it isn't
      */
     public static String arithmetic(int a, int b, int c) {
-        String result = "ERROR";
+        String result;
         
         if (c == a * b) {
             result = "YES";
